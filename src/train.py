@@ -1,6 +1,6 @@
+import os
 import pandas as pd
 import joblib
-import os
 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -9,11 +9,14 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import roc_auc_score
 
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.dirname(
+    os.path.abspath(__file__)
+)
 
-DATA_PATH = os.path.join(BASE_DIR, "..", "data", "processed", "heart_cleaned.csv")
+DATA_PATH = os.path.join(
+    BASE_DIR, "..", "data", "processed", "heart_cleaned.csv"
+)
 MODEL_DIR = os.path.join(BASE_DIR, "..", "models")
-
 
 
 def train():
@@ -27,7 +30,12 @@ def train():
     y = df["target"]
 
     numerical_features = [
-        "age", "trestbps", "chol", "thalach", "oldpeak", "ca"
+        "age",
+        "trestbps",
+        "chol",
+        "thalach",
+        "oldpeak",
+        "ca",
     ]
 
     # Train-test split
@@ -36,7 +44,7 @@ def train():
         y,
         test_size=0.2,
         random_state=42,
-        stratify=y
+        stratify=y,
     )
 
     # Scaling

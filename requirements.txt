@@ -3,3 +3,5 @@ numpy
 scikit-learn
 joblib
 mlflow
+flake8
+prometheus-client
