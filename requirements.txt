@@ -1,7 +1,27 @@
-pandas
+# Core
 numpy
+pandas
 scikit-learn
 joblib
+
+# EDA & notebooks
+matplotlib
+seaborn
+jupyter
+
+# Experiment tracking
 mlflow
-flake8
+
+# API
+fastapi
+uvicorn
+
+# Monitoring
 prometheus-client
+
+# Testing & linting
+pytest
+flake8
+
+# Optional (used implicitly by FastAPI / uvicorn)
+pydantic
