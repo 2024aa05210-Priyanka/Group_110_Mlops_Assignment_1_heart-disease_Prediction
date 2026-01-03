@@ -23,5 +23,5 @@ prometheus-client
 pytest
 flake8
 
-# Optional (used implicitly by FastAPI / uvicorn)
+# Optional
 pydantic
