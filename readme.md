@@ -86,6 +86,8 @@ Experiment Tracking (MLflow)
 - Trained model artifacts
 
 ## MLflow UI run locally to visualize experiments
+Run API:
+uvicorn src.app:app --reload
 
 Start MLflow UI
 python -m mlflow ui
