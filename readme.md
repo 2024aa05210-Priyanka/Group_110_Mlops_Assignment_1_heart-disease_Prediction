@@ -45,8 +45,8 @@ heart-disease-mlops/
 │   └── scaler.pkl
 │
 ├── notebooks/
-│   ├── 01_eda.ipynb
-│   └── 02_training.ipynb
+│   ├── EDA (1).ipynb
+│   └── Model_Training_and_feature_Engineering.ipynb
 │
 ├── src/
 │   ├── __init__.py
@@ -55,13 +55,21 @@ heart-disease-mlops/
 │   ├── log_experiments.py
 │   └── app.py
 │
+├── monitoring/
+│   └── prometheus.yml
+│
 ├── tests/
 │   ├── test_training.py
 │   └── test_prediction.py
 │
+├── k8s/
+│   ├── deployment.yml
+│   └── service.yml
+│
 ├── mlruns/
 ├── pytest.ini
 ├── requirements.txt
+├── Dockerfile
 └── README.md
 ```
 
