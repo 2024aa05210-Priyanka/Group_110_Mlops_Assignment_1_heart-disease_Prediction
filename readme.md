@@ -31,8 +31,9 @@ Binary classification
 Cleaned dataset saved as:
 
 data/processed/heart_cleaned.csv
-
 ## Project Structure
+
+```text
 heart-disease-mlops/
 │
 ├── data/
@@ -62,6 +63,7 @@ heart-disease-mlops/
 ├── pytest.ini
 ├── requirements.txt
 └── README.md
+
 
 ## Models Used
 **1. Logistic Regression**
