@@ -63,7 +63,7 @@ heart-disease-mlops/
 ├── pytest.ini
 ├── requirements.txt
 └── README.md
-
+```
 
 ## Models Used
 **1. Logistic Regression**
